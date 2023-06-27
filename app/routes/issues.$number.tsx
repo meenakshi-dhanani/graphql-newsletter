@@ -7,7 +7,7 @@ export const meta: V2_MetaFunction = () => [{ title: "This Week in GraphQL 10" }
 
 const issue = {
   publishedAt: "21 JUN 2023",
-  title: "This Week in Rust 10",
+  title: "This Week in GraphQL 10",
   number: 10,
 };
 export const action = async ({ request }: ActionArgs) => {
@@ -139,7 +139,7 @@ export default function IssueRoute() {
             <p>
               Always wanted to contribute to open-source projects but did not
               know where to start? Every week we highlight some tasks from the
-              Rust community for you to pick and get started!
+              GraphQL community for you to pick and get started!
             </p>
             <ul className="mt-4 list-disc pl-8">
               <li>
@@ -237,7 +237,7 @@ export default function IssueRoute() {
               </li>
             </ul>
             <p className="mt-4">
-              If you are running a Rust event please add it to the calendar to
+              If you are running a GraphQL event please add it to the calendar to
               get it mentioned here. Please remember to add a link to the event
               too. Email the GraphQL Community Team for access.
             </p>
@@ -254,15 +254,15 @@ export default function IssueRoute() {
             </h3>
 
             <blockquote className="border-l-4 border-solid border-rhodamine pl-4">
-              <p>rust programmers when they see each other again:</p>
+              <p>Why are GraphQL programmers so self-aware?</p>
               <blockquote className="border-l-4 border-solid border-rhodamine pl-4">
-                <p>Long time no C</p>
+                <p>Because they're so good at introspection</p>
               </blockquote>
             </blockquote>
             <p>
               –{" "}
-              <Link to="https://mond-basis.eu/@transcaffeine/110538051681033551">
-                ciscoffeine on mond-basis.eu
+              <Link to="https://twitter.com/mdhananii">
+                mdhananii on Twitter
               </Link>
             </p>
 
